@@ -9,11 +9,9 @@
     'depends': ['base'],
     'data': [
         'views/view1.xml',
-
     ],
     'qweb': [],
     'js': [],
     'css': [],
     'auto_install': False,
-    'application': True,
 }
