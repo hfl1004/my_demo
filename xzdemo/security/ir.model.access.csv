@@ -1,2 +1,2 @@
-access_pscloud_xzdemo_lesson,pscloud.xzdemo.lesson,pscloud_xzdemo.model_pscloud_xzdemo_lesson,base.group_user,1,0,0,0
-access_pscloud_xzdemo_subject,pscloud.xzdemo.subject,pscloud_xzdemo.model_pscloud_xzdemo_subject,base.group_user,1,0,0,0
+access_pscloud_xzdemo_lesson,pscloud.xzdemo.lesson,pscloud_xzdemo.model_pscloud_xzdemo_lesson,base.group_user,1,1,1,1
+access_pscloud_xzdemo_subject,pscloud.xzdemo.subject,pscloud_xzdemo.model_pscloud_xzdemo_subject,base.group_user,1,1,1,1
