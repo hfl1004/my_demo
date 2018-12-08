@@ -11,8 +11,8 @@ class Lesson(models.Model):
 
 
     name = fields.Char(string='Name')
-    teacher_id = fields.Many2one('res_partner', string='老师')
-    student_ids = fields.Many2many('res_partner', string='学生', readonly=True)
+    teacher_id = fields.Many2one('res.partner', string='老师')
+    student_ids = fields.Many2many('res.partner', string='学生', readonly=True)
     start_date = fields.Date(string='开始时间')
     end_date = fields.Date(string='结束时间')
     continue_days = fields.Integer(string='持续天数', compute='_compute_days', store=True)
@@ -22,7 +22,7 @@ class Lesson(models.Model):
         ], string='状态', readonly=True, copy=False, index=True, default='draft')
     seat_qty = fields.Integer(string='座位数')
     subject_id = fields.Many2one('pscloud.xzdemo.subject', string='科目')
-    person_id = fields.Many2one('res_partner', related='subject_id.person_id', readonly=True)
+    person_id = fields.Many2one('res.partner', related='subject_id.person_id', readonly=True)
     desc = fields.Text(string='描述')
 
 
