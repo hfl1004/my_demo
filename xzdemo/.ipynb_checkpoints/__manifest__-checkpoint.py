@@ -7,7 +7,7 @@
     'website': 'https://www.mypscloud.com/',
     'category': 'Tools',
     'depends': ['base'],
-    'data': [ ],
+    'data': [],
     'qweb': [],
     'js': [],
     'css': [],

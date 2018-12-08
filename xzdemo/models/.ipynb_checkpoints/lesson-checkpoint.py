@@ -11,8 +11,8 @@ class Lesson(models.Model):
 
 
     name = fields.Char(string='Name')
-    teacher_id = fields.Many2one('res_partner', string='老师', domain=[('is_teacher', '=', True)])
-    student_ids = fields.Many2many('res_partner', string='学生', domain=[('is_student', '=', True)], readonly=True)
+    teacher_id = fields.Many2one('res_partner', string='老师')
+    student_ids = fields.Many2many('res_partner', string='学生', readonly=True)
     start_date = fields.Date(string='开始时间')
     end_date = fields.Date(string='结束时间')
     continue_days = fields.Integer(string='持续天数', compute='_compute_days', store=True)
