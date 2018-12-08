@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'XZPSCloud课程管理系统',
+    'name': 'PS Cloud 课程管理系统',
     'version': '12.0.1.0',
-    'summary': 'XZPSCloud课程管理系统',
+    'summary': 'PS Cloud 课程管理系统',
     'author': "www.mypscloud.com",
     'website': 'https://www.mypscloud.com/',
     'category': 'Tools',
