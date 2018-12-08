@@ -3,7 +3,7 @@
 from odoo import api, fields, models
 from odoo.exceptions import UserError, ValidationError
 import datetime
-from odoo.tools import DEFAULT_SERVER_DATE_FORMAT as DATE_FORMAT
+
 
 class Lesson(models.Model):
     _name = 'pscloud.xzdemo.lesson'
