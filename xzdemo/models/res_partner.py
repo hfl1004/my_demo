@@ -3,7 +3,7 @@
 from odoo import api, fields, models
 
 class ResParter(models.Model):
-    _inherit = 'res.partner'
+    _inherit = 'res_partner'
 
     is_teacher = fields.Boolean(string='老师')
     is_student = fields.Boolean(string='学生')
