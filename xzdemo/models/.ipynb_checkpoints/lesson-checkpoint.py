@@ -3,7 +3,7 @@
 from odoo import api, fields, models
 from odoo.exceptions import UserError, ValidationError
 import datetime
-
+from odoo.tools import DEFAULT_SERVER_DATE_FORMAT as DATE_FORMAT
 
 class Lesson(models.Model):
     _name = 'pscloud.xzdemo.lesson'
@@ -22,7 +22,8 @@ class Lesson(models.Model):
         ], string='状态', readonly=True, copy=False, index=True, default='draft')
     seat_qty = fields.Integer(string='座位数')
     subject_id = fields.Many2one('pscloud.xzdemo.subject', string='科目')
-    person_id = fields.Many2one('res.partner', related='subject_id.person_id', readonly=True)
+    #下面一句related：相关的
+    #person_id = fields.Many2one('res.partner', related='subject_id.person_id', readonly=True)
     desc = fields.Text(string='描述')
 
 

@@ -2,12 +2,12 @@
 <odoo>
     <data>
 
-        <menuitem id="xzdemo_menu_root" name="培训管理" sequence="0"/>
-        <menuitem id="subject_menu" parent="xzdemo_menu_root"  sequence="10"/>
-        <menuitem id="lesson_menu" parent="xzdemo_menu_root" sequence="20"/>
+        <menuitem id="xzdemo_menu_root" name="培训管理"  sequence="0"/>
+        <menuitem id="subject_menu" parent="xzdemo_menu_root" action="action_xzdemo_subject" sequence="10"/>
+<!--        <menuitem id="lesson_menu" parent="xzdemo_menu_root" action="action_xzdemo_lesson" sequence="20"/>
         <menuitem id="person_menu" name ="人员资料" parent="xzdemo_menu_root" sequence="30"/>
         <menuitem id="teacher_menu" parent="person_menu" sequence="10"/>
-        <menuitem id="student_menu" parent="person_menu" sequence="20"/>
+        <menuitem id="student_menu" parent="person_menu" sequence="20"/> -->
 
     </data>
 </odoo>

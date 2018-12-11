@@ -10,6 +10,7 @@
     'data': [
         'security/ir.model.access.csv',
         'views/xzdemo_views.xml',
+        'views/xzdemo_subject.xml',
     ],
     'qweb': [],
     'js': [],
