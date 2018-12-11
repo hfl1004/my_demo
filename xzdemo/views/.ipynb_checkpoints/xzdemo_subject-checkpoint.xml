@@ -5,6 +5,7 @@
         <record id="view_xzdemo_subject_tree" model="ir.ui.view">
             <field name="name">my_demo.xzdemo.subject.tree</field>
             <field name="model">my_demo.xzdemo.subject</field>
+            <field name="type">tree</field>
             <field name="arch" type="xml">
                 <tree string="科目列表">
                     <field name="name"/>
