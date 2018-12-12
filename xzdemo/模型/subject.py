@@ -3,7 +3,7 @@
 from odoo import api, fields, models
 
 class Subject(models.Model):
-    _name = 'my_demo.xzdemo.subject'
+    _name = 'xzdemo.subject'
     _description = "科目"
 
     name = fields.Char(string='科目名称')
