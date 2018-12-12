@@ -3,8 +3,8 @@
     <data>
 
         <record id="view_xzdemo_subject_tree" model="ir.ui.view">
-            <field name="name">my_demo.xzdemo.subject.tree</field>
-            <field name="model">my_demo.xzdemo.subject</field>
+            <field name="name">xzdemo.subject.tree</field>
+            <field name="model">xzdemo.subject</field>
             <field name="type">tree</field>
             <field name="arch" type="xml">
                 <tree string="科目列表">
@@ -21,7 +21,7 @@
         <record id="action_xzdemo_subject" model="ir.actions.act_window">
             <field name="name">科目</field>
             <field name="type">ir.actions.act_window</field>
-            <field name="res_model">my_demo.xzdemo.subject</field>
+            <field name="res_model">xzdemo.subject</field>
             <field name="view_type">tree</field>
             <field name="view_id" ref="view_xzdemo_subject_tree"/>
             <field name="view_mode">tree</field>
